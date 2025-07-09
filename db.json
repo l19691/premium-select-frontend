@@ -1,0 +1,73 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Crystal Vase",
+      "description": "Elegant Murano glass vase",
+      "price": 120.5,
+      "category": "Decor"
+    },
+    {
+      "id": "2",
+      "name": "Luxury Pendant",
+      "description": "Handmade glass pendant",
+      "price": 100,
+      "category": "Jewelry"
+    },
+    {
+      "id": "d9bc",
+      "name": "Trial 2",
+      "description": "sdfklsdfk;sdkf",
+      "price": 113,
+      "category": "Decor"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": 1,
+      "productIds": [
+        1,
+        2
+      ],
+      "total": 205.5
+    },
+    {
+      "id": "67f8",
+      "userId": 1,
+      "productIds": [
+        "1",
+        "2"
+      ],
+      "total": 215.5
+    },
+    {
+      "id": "a36f",
+      "userId": 1,
+      "productIds": [
+        "1",
+        "2"
+      ],
+      "total": 215.5
+    },
+    {
+      "id": "c9b5",
+      "userId": 1,
+      "productIds": [
+        "1",
+        "2"
+      ],
+      "total": 220.5
+    },
+    {
+      "id": "81e1",
+      "userId": 1,
+      "productIds": [
+        "1",
+        "2",
+        "d9bc"
+      ],
+      "total": 333.5
+    }
+  ]
+}
